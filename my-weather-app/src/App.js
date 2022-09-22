@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import hotbg from './assets/hot.jpg'
+import coldbg from './assets/cold.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app" style= {{ backgroundImage: `url(${coldbg})`}}>
+      <div className="overlay">
+        <div className='container'>
+          <div className='section section__inputs'>
+            <input type="text" name="city" placeholder='Enter City...'/>
+            <button>°F</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
