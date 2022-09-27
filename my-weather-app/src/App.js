@@ -1,5 +1,6 @@
 import hotbg from './assets/hot.jpg'
 import coldbg from './assets/cold.jpg'
+// import weathericon from './assets/weathericon'
 function App() {
   return (
     <div className="app" style= {{ backgroundImage: `url(${coldbg})`}}>
@@ -12,7 +13,7 @@ function App() {
           <div className="section section__temparature"></div>
           <div className="icon">
             <h3>London, GB</h3>
-            <img src="https://images.app.goo.gl/PJYM5xfgcVMq5AnL9" alt="weathericon"/>
+            <img src="https://www.pngall.com/wp-content/uploads/11/Weather-No-Background.png" width="55" height="50" alt="weathericon"/>
             <h3>Cloudy</h3>
           </div>
           <div className="temparature">
