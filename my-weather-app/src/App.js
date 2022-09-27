@@ -18,6 +18,7 @@ function App() {
           </div>
           <div className="temparature">
             <h1>34°C</h1>
+            <h3>what</h3>
           </div>
         </div>
       </div>
