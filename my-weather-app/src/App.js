@@ -1,5 +1,6 @@
 import hotbg from './assets/hot.jpg'
 import coldbg from './assets/cold.jpg'
+import Description from './Components/Description';
 // import weathericon from './assets/weathericon'
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
               <h1>34 °C</h1>
             </div>
           </div>
+          {/* bottom description */}
+          <Description/>
         </div>
       </div>
     </div>
