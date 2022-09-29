@@ -13,7 +13,7 @@ function App() {
           <div className="section section__temperature">
             <div className="icon">
               <h3>London, GB</h3>
-              <img src="https://www.pngall.com/wp-content/uploads/11/Weather-No-Background.png" width="55" height="50" alt="weathericon"/>
+              <img src="https://www.pngall.com/wp-content/uploads/11/Weather-No-Background.png" width="35" height="40" alt="weathericon"/>
               <h3>Cloudy</h3>
             </div>
             <div className="temperature">
